@@ -500,7 +500,6 @@
             this.loginasCombobox.ItemHeight = 19;
             this.loginasCombobox.Items.AddRange(new object[] {
             "Client",
-            "Admin",
             "Tax Admin",
             "License Admin"});
             this.loginasCombobox.Location = new System.Drawing.Point(36, 195);

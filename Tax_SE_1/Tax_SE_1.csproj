@@ -53,6 +53,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseAdmin.Designer.cs">
+      <DependentUpon>LicenseAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="TaxAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +85,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseAdmin.resx">
+      <DependentUpon>LicenseAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TaxAdmin.resx">
       <DependentUpon>TaxAdmin.cs</DependentUpon>
     </EmbeddedResource>

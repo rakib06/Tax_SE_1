@@ -36,12 +36,28 @@ namespace Tax_SE_1
         private void loginButton_Click(object sender, EventArgs e)
         {
             string type = loginasCombobox.Text;
-            if (type == "Admin")
+            if (type == "Tax Admin")
             {
                 TaxAdmin t = new TaxAdmin();
                 t.Show();
                 this.Hide();
                 
+
+            }
+            else if (type == "License Admin")
+            {
+                LicenseAdmin t = new LicenseAdmin();
+                t.Show();
+                this.Hide();
+
+
+            }
+            else if (type == "Client")
+            {
+                Client t = new Client();
+                t.Show();
+                this.Hide();
+
 
             }
         }

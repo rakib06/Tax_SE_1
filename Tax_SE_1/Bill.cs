@@ -11,29 +11,23 @@ using MetroFramework;
 using MetroFramework.Forms;
 namespace Tax_SE_1
 {
-    public partial class TaxAdmin : MetroForm
+    public partial class Bill : MetroForm
     {
-        public TaxAdmin()
+        public Bill()
         {
             InitializeComponent();
         }
 
-        private void Admin_Load(object sender, EventArgs e)
+        private void Bill_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void metroLabel4_Click(object sender, EventArgs e)
+        private void metroButton1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void metroButton3_Click(object sender, EventArgs e)
-        {
-            Login t = new Login();
+            Client t = new Client();
             t.Show();
             this.Hide();
-
         }
     }
 }
